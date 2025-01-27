@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace Console_P1
 {
-    internal class Program
+    internal class New
     {
-        static void Main(string[] args)
-        {
-        }
     }
 }

@@ -43,8 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="heyMer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tutorial2_ary\ary.cs" />
+    <Compile Include="Tutorial2_ary\copyAry.cs" />
+    <Compile Include="Tutorial2_ary\countDuplicate.cs" />
+    <Compile Include="Tutorial2_ary\deleteEle.cs" />
+    <Compile Include="Tutorial2_ary\descElements.cs" />
+    <Compile Include="Tutorial2_ary\maxMinAry.cs" />
+    <Compile Include="Tutorial2_ary\reverseAry.cs" />
+    <Compile Include="Tutorial2_ary\seprateEvenOdd.cs" />
+    <Compile Include="Tutorial2_ary\sortAry.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
