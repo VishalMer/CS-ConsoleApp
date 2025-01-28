@@ -43,8 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Other\incTime.cs" />
     <Compile Include="Other\propertyDemo.cs" />
     <Compile Include="Other\staticUpdate.cs" />
+    <Compile Include="Other\Time.cs" />
     <Compile Include="Practical Assignment - Loop\factorial.cs" />
     <Compile Include="Practical Assignment - Loop\loopDesign1.cs" />
     <Compile Include="Practical Assignment - Loop\loopDesign2.cs" />
