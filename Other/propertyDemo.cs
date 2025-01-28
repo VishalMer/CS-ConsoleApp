@@ -7,36 +7,36 @@ using System.Xml.Linq;
 
 namespace Console_P1.Other
 {
-    
-        public class student
-        {
-             string name;
-             int rollno;
-             int cgpa;
-            public string Name
-            {
-                get { return name; }
-                set { name = value; }
-            }
-            public int Rollno
-            {
-                get { return rollno; }
-                set { rollno = value; }
-            }
-            public int Cgpa
-            {
-                get { return cgpa; }
-                set { cgpa = value; }
-            }
-            public void display()
-            {
-                Console.WriteLine(rollno + "\t" + name + "\t" + cgpa);
-            }
-        }
 
-        class propertyDemo
+    public class student
+    {
+        string name;
+        int rollno;
+        int cgpa;
+        public string Name
         {
-            static void Main(string[] args)
+            get { return name; }
+            set { name = value; }
+        }
+        public int Rollno
+        {
+            get { return rollno; }
+            set { rollno = value; }
+        }
+        public int Cgpa
+        {
+            get { return cgpa; }
+            set { cgpa = value; }
+        }
+        public void display()
+        {
+            Console.WriteLine(rollno + "\t" + name + "\t" + cgpa);
+        }
+    }
+
+    class propertyDemo
+    {
+        static void Main(string[] args)
         {
             student s1 = new student();
             student s2 = new student();
