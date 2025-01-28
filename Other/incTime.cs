@@ -10,30 +10,51 @@ namespace Console_P1.Other
     {
         public class Time
         {
-            int sec;
-            int min;
-            int hr;
+            int sec, min, hr;
             string t = "";
+            bool display = true;
 
             public Time()
             {
-
                 Console.Write("Enter the hour : ");
                 hr = Convert.ToInt32(Console.ReadLine());
+                if (hr < 0 || hr > 23)
+                {
+                    message("hour! Enter in (0-23).");
+                    return;
+                }
 
                 Console.Write("Enter the minute : ");
                 min = Convert.ToInt32(Console.ReadLine());
+                if (min < 0 || min > 59)
+                {
+                    message("minute! Enter in (0-59).");
+                    return;
+                }
 
                 Console.Write("Enter the second : ");
                 sec = Convert.ToInt32(Console.ReadLine());
+                if (sec < 0 || sec > 59)
+                {
+                    message("seconds! Enter in (0-59).");
+                    return;
+                }
 
                 Console.WriteLine("");
 
-                Console.WriteLine("Current time is : " + hr + ":" + min + ":" + sec);
+                if (display)
+                {
+                    Console.WriteLine("Entered time is : " + hr + ":" + min + ":" + sec);
+                }
 
                 Console.WriteLine();
 
+            }
 
+            public void message(string variable)
+            {
+                display = false;
+                Console.WriteLine("Invalid format of " + variable);
             }
 
             string increment()
@@ -49,15 +70,15 @@ namespace Console_P1.Other
                     {
                         hr = hr + 1;
                         min = 0;
+                        if (hr > 24)
+                        {
+                            hr = 0;
+                        }
                     }
                 }
 
                 return t = hr + ":" + min + ":" + sec;
-
-                //Console.WriteLine("Time is : " + t);
-
             }
-
 
             static void Main(string[] args)
             {
@@ -66,9 +87,10 @@ namespace Console_P1.Other
 
                 string incTime = t1.increment();
 
-                Console.WriteLine("New time is : " + incTime);
-
-                Console.ReadLine();
+                if (t1.display)
+                {
+                    Console.WriteLine("New time is : " + incTime);
+                }
 
             }
 
