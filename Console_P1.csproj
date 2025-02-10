@@ -43,6 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CI1_Demo\arithmatic.cs" />
+    <Compile Include="CI1_Demo\employee.cs" />
+    <Compile Include="CI1_Demo\Que4.cs" />
+    <Compile Include="CI1_Demo\Que6.cs" />
+    <Compile Include="CI1_Demo\shapeArea.cs" />
+    <Compile Include="CI1_Demo\StDetails.cs" />
+    <Compile Include="CI1_Demo\student.cs" />
+    <Compile Include="CI1_Demo\swapping.cs" />
+    <Compile Include="Other\aryPrac.cs" />
     <Compile Include="Other\incTime.cs" />
     <Compile Include="Other\propertyDemo.cs" />
     <Compile Include="Other\staticUpdate.cs" />

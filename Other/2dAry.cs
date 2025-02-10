@@ -35,12 +35,13 @@ namespace _4BCA
             }
 
             //Display of the elements
+            Console.WriteLine(" ");
             Console.WriteLine("Elements for 2X2 array : ");
             for (int i = 0; i < ary.GetLength(0); i++)
             {
                 for (int j = 0; j < ary.GetLength(1); j++)
                 {
-                    Console.WriteLine(+ary[i,j]);
+                    Console.WriteLine(ary[i,j]);
                 }
             }
         }
