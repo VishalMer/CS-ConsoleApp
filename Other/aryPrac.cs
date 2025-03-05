@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Console_P1.Tutorial2_ary
+namespace Console_P1.Other
 {
     internal class Class1
     {

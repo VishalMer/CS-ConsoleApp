@@ -43,6 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CI1\Q1.cs" />
+    <Compile Include="CI1\Q2.cs" />
+    <Compile Include="CI1\Q3.cs" />
+    <Compile Include="CI1\Q4.cs" />
+    <Compile Include="CI1\Q5.cs" />
+    <Compile Include="CI1\Q6.cs" />
+    <Compile Include="CI1\Q7.cs" />
+    <Compile Include="CI1\Q8.cs" />
     <Compile Include="CI1_Demo\arithmatic.cs" />
     <Compile Include="CI1_Demo\employee.cs" />
     <Compile Include="CI1_Demo\Que4.cs" />
@@ -51,8 +59,11 @@
     <Compile Include="CI1_Demo\StDetails.cs" />
     <Compile Include="CI1_Demo\student.cs" />
     <Compile Include="CI1_Demo\swapping.cs" />
+    <Compile Include="Other\Abstraction.cs" />
     <Compile Include="Other\aryPrac.cs" />
     <Compile Include="Other\incTime.cs" />
+    <Compile Include="Other\interfaceDemo.cs" />
+    <Compile Include="Other\interfaceShape.cs" />
     <Compile Include="Other\propertyDemo.cs" />
     <Compile Include="Other\staticUpdate.cs" />
     <Compile Include="Practical Assignment - Loop\factorial.cs" />
