@@ -61,6 +61,8 @@
     <Compile Include="CI1_Demo\swapping.cs" />
     <Compile Include="Other\Abstraction.cs" />
     <Compile Include="Other\aryPrac.cs" />
+    <Compile Include="Other\DelDateTime.cs" />
+    <Compile Include="Other\delegateDemo.cs" />
     <Compile Include="Other\incTime.cs" />
     <Compile Include="Other\interfaceDemo.cs" />
     <Compile Include="Other\interfaceShape.cs" />
